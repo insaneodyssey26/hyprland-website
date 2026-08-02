@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyprland Dotfiles | Masum</title>
+    <meta name="description" content="A customized, minimal Wayland-centric desktop environment built on Arch Linux.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar fade-in">
+        <div class="nav-content">
+            <span class="logo">Hyprland Setup</span>
+            <a href="https://github.com/insaneodyssey26/hyprland" target="_blank" class="github-btn">View on GitHub</a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-text fade-in-up">
+            <h1>Minimal. Fast.<br>Wayland Native.</h1>
+            <p>A finely tuned Arch Linux desktop environment. Dynamic theming, GPU-accelerated terminals, and zero bloat.</p>
+        </div>
+        <div class="hero-image-wrapper fade-in-up delay-1">
+            <img src="assets/desktop.png" alt="Hyprland Desktop Screenshot" class="hero-image">
+        </div>
+    </header>
+
+    <section class="features">
+        <div class="feature-grid">
+            <div class="feature-card fade-in-up">
+                <h3>Dynamic Theming</h3>
+                <p>Colors are automatically generated from your active wallpaper using Matugen. The entire system adapts instantly.</p>
+            </div>
+            <div class="feature-card fade-in-up delay-1">
+                <h3>God-Tier Terminal</h3>
+                <p>Fully synchronized Zsh configuration with fzf integrations, fast syntax highlighting, and zoxide smart jumping.</p>
+            </div>
+            <div class="feature-card fade-in-up delay-2">
+                <h3>Keyboard Driven</h3>
+                <p>Navigate your entire system without touching the mouse. Intuitive bindings for window management and utilities.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="showcase fade-in-up">
+        <div class="showcase-content">
+            <h2>UI Components</h2>
+            <p>A unified Wayland suite featuring Waybar, SwayNC, and Fuzzel. Everything strictly follows the system color scheme.</p>
+            <img src="assets/ui_components.png" alt="UI Components Showcase" class="showcase-image">
+        </div>
+    </section>
+
+    <section class="installation fade-in-up">
+        <h2>Get Started</h2>
+        <p>Run the automated setup script on a fresh Arch Linux installation.</p>
+        <div class="code-block">
+            <code>git clone https://github.com/insaneodyssey26/hyprland.git ~/hyprland<br>
+            cd ~/hyprland<br>
+            ./setup.sh</code>
+        </div>
+    </section>
+
+    <footer>
+        <p>Created by Masum Ali. Licensed under MIT.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
