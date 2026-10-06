@@ -47,7 +47,7 @@ export default function Navbar({ currentPath }: { currentPath: string }) {
             
             <div style={{ width: '1px', height: '24px', background: 'var(--border-color)', margin: '0 8px' }}></div>
             
-            <a href="https://masumali.me/" target="_blank" rel="noreferrer" className="avatar-link">
+            <a href="https://masum.tech/" target="_blank" rel="noreferrer" className="avatar-link">
               <img src="https://github.com/insaneodyssey26.png" alt="Masum Ali" className="avatar-img" />
               <div className="avatar-tooltip">
                 Not an actual android, just an engineer who builds them. Click to stalk my portfolio <AndroidIcon />
